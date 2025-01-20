@@ -1,13 +1,21 @@
 body {
   text-align: center;
-  margin: 40px auto;
+  margin: 0 auto;
   background-color: rgb(251, 251, 222);
+}
+
+header {
+  background-image: url("../images/header.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  min-height: 350px;
+  padding: 70px;
 }
 
 h1 {
   font-family: "Cherry Bomb One", serif;
   font-weight: normal;
-  text-transform: uppercase;
   font-size: 80px;
 }
 
