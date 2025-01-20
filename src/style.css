@@ -1,3 +1,8 @@
+:root {
+  --heading-font: "Cherry Bomb One", sans-serif;
+  --body-font: "Quicksand", sans-serif;
+}
+
 body {
   text-align: center;
   margin: 0 auto;
@@ -14,12 +19,53 @@ header {
 }
 
 h1 {
-  font-family: "Cherry Bomb One", serif;
+  font-family: var(--heading-font);
   font-weight: normal;
   font-size: 80px;
 }
 
 h2 {
-  font-family: "Quicksand", sans-serif;
+  font-family: var(--body-font);
   font-weight: normal;
+}
+
+.profile {
+  width: 70%;
+  margin: 30px auto;
+  text-align: left;
+  font-family: var(--body-font);
+  font-weight: bold;
+  font-size: 16px;
+}
+
+@media (max-width: 1300px) {
+  .profile {
+    width: 90%;
+  }
+}
+
+.images {
+  padding: 10px;
+}
+
+.image-header {
+  width: 100%;
+  max-height: 200px;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.contact-btn {
+  width: 200px;
+  padding: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-weight: bold;
+  background-color: #d7b8ec;
+  border: 1px solid #d7b8ec;
+  font-size: 18px;
+}
+
+.contact-btn:hover {
+  color: #ffffff;
 }
