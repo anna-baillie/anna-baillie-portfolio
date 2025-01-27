@@ -111,6 +111,11 @@ a:hover,
   color: rgb(86, 69, 5);
 }
 
+.nav-link.active {
+  color: rgb(86, 69, 5);
+  font-weight: bold;
+}
+
 .navbar {
   background-color: rgb(251, 251, 222);
   font-family: var(--body-font);
@@ -137,5 +142,5 @@ footer {
 }
 
 .social-icon-holder {
-  margin-top: 8px;
+  margin-top: 15px;
 }
