@@ -2,8 +2,12 @@
   --heading-font: "Cherry Bomb One", sans-serif;
   --body-font: "Quicksand", sans-serif;
 }
+html {
+  height: 100%;
+}
 
 body {
+  height: 100%;
   text-align: center;
   margin: 0 auto;
   background-color: rgb(251, 251, 222);
@@ -110,4 +114,23 @@ a:hover,
 .navbar {
   background-color: rgb(251, 251, 222);
   font-family: var(--body-font);
+}
+
+footer {
+  background-color: #d7b8ec;
+  font-family: var(--body-font);
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+  min-height: 100px;
+  padding: 20px;
+  position: sticky;
+  top: 100vh;
+  width: 100%;
+}
+
+.social-icon {
+  background-color: rgb(251, 251, 222);
+  padding: 5px;
+  border-radius: 5px;
 }
