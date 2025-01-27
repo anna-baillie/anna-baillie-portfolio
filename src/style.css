@@ -10,13 +10,10 @@ body {
 }
 
 header {
-  /* background-image: url("../images/header.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: bottom; */
   background-color: #d7b8ec;
   min-height: 250px;
   padding: 70px;
+  margin-top: 55px;
 }
 
 h1 {
@@ -64,8 +61,8 @@ h3 {
   }
 }
 
-.images {
-  /* padding: 10px; */
+.nav-margin {
+  margin-top: 55px;
 }
 
 .image-header {
@@ -98,12 +95,19 @@ h3 {
   background-color: none;
 }
 
-a {
+a,
+.nav-link {
   color: rgb(43, 7, 68);
   text-decoration: none;
   transition: ease-in-out 200ms;
 }
 
-a:hover {
+a:hover,
+.nav-link:hover {
   color: rgb(86, 69, 5);
+}
+
+.navbar {
+  background-color: rgb(251, 251, 222);
+  font-family: var(--body-font);
 }
