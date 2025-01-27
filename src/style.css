@@ -131,6 +131,12 @@ footer {
 
 .social-icon {
   background-color: rgb(251, 251, 222);
+  width: 20px;
+  height: auto;
   padding: 5px;
   border-radius: 5px;
+}
+
+.social-icon-holder {
+  margin-top: 5px;
 }
