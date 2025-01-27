@@ -30,8 +30,7 @@ h2 {
   font-weight: normal;
 }
 
-.profile,
-.about-me {
+.grids {
   width: 70%;
   margin: 0px auto;
   padding: 20px;
@@ -46,7 +45,7 @@ h2 {
     width: 90%;
   }
 
-  .about-me {
+  .grids {
     width: 90%;
   }
 }
