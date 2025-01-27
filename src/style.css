@@ -10,11 +10,12 @@ body {
 }
 
 header {
-  background-image: url("../images/header.png");
+  /* background-image: url("../images/header.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
-  min-height: 350px;
+  background-position: bottom; */
+  background-color: #d7b8ec;
+  min-height: 250px;
   padding: 70px;
 }
 
@@ -29,9 +30,11 @@ h2 {
   font-weight: normal;
 }
 
-.profile {
+.profile,
+.about-me {
   width: 70%;
-  margin: 30px auto;
+  margin: 0px auto;
+  padding: 20px;
   text-align: left;
   font-family: var(--body-font);
   font-weight: bold;
@@ -42,10 +45,14 @@ h2 {
   .profile {
     width: 90%;
   }
+
+  .about-me {
+    width: 90%;
+  }
 }
 
 .images {
-  padding: 10px;
+  /* padding: 10px; */
 }
 
 .image-header {
@@ -68,4 +75,12 @@ h2 {
 
 .contact-btn:hover {
   color: #ffffff;
+}
+
+.background-one {
+  background-color: #d7b8ec;
+}
+
+.background-two {
+  background-color: none;
 }
